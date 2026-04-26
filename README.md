@@ -10,7 +10,7 @@ $$X_{i+1} = X_{i} + a(X_{i})\Delta t + b(X_{i})\Delta W_{i}$$, and
 **Milstein Scheme:**
 $$X_{i+1} = X_{i} + a(X_{i})\Delta t + b(X_{i})\Delta W_{i} + \frac{1}{2}b(X_{i})b'(X_{i})[(\Delta W_{i})^{2} - \Delta t]$$.
 
-The table below summarizes the theoretical and experimental order od convergence (o.o.c.).
+The table below summarizes the theoretical and experimental order of convergence (o.o.c.).
 | Scheme | th. strong o.o.c. | exp. strong o.o.c. | th. weak o.o.c. | exp. weak o.o.c. |
 | :--- | :---: | :---: | :---: | :---: |
 | **Euler** | $0.5$ | $0.496$  | $1.0$ | $0.980$ |
